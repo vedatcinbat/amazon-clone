@@ -1,0 +1,46 @@
+.checkout {
+    display: flex;
+    padding: 2rem;
+    background-color: white;
+    height: max-content;
+}
+.checkout__title {
+    margin-right: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.checkout__ad {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .checkout {
+        display: flex;
+        padding: 0.2rem;
+        background-color: white;
+        height: max-content;
+        max-width: 500px;
+    }
+    .checkout__title {
+        margin-right: 1rem;
+        padding: 1rem;
+        border-bottom: 1px solid lightgray;
+    }
+    
+    .checkout__ad {
+        width: 90%;
+        margin-bottom: 0.5rem;
+        
+    }
+    .checkout__left {
+        width: 300px;
+    }
+    .checkout__right {
+        width: 150px;
+    }
+
+}

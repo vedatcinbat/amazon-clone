@@ -1,0 +1,29 @@
+.subtotal > button {
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color : #a88734 #9c7e31 #846a29;
+    color: white;
+    padding: 0.4rem;
+}
+.subtotal {
+    white-space: nowrap;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .subtotal > button {
+        background: #f0c14b;
+        border: 1px solid;
+        margin-top: 5px;
+        border-color : #a88734 #9c7e31 #846a29;
+        color: white;
+        padding: 0.2rem;
+    }
+    .subtotal {
+        white-space: nowrap;
+        text-align: left;
+        font-size: 10px;
+    }
+
+}
